@@ -1,0 +1,51 @@
+* { /* resetando configuração de margem e padding na página toda */
+    margin: 0;
+    padding: 0;
+}
+
+body { /* todo o conteúdo visual da página */
+    background-color: #A5BEFA; /* cor de fundo */
+    height: 100vh; /* 100% tamanho da tela */
+    box-sizing: border-box; /* limitar a margem */
+    color: #B3093F; /* cor da fonte */
+}
+
+.destaque_titulo { /* strong */
+    color: #550606; /* cor do destaque no título */
+}
+
+.apresentacao { /* main */
+    margin: 10% 15%; /* topo/fundo - direita/esquerda */
+    display: flex; 
+    align-items: center; /* colunas centralizadas */
+    justify-content: space-between; /* espaço entre as colunas */
+    width: 1000px;
+}
+
+.apresentacao_texto { /* section - coluna esquerda */
+    display: flex; /* caixas h1 p div */
+    flex-direction: column;
+    width: 50%; /* seção ocupa 50% de largura da caixa main */
+    gap: 40px; /* espaço entre as caixas dentro da coluna */
+}
+
+.apresentacao_links_link { /* tag a - botões */
+    background-color: #B3093F; /* cor de fundo do botão */
+    width: 280px; /* largura do botão */
+    border-radius: 16px; /* arredondamento da borda */
+    font-size: 24px; /* tamanho da fonte */
+    font-weight: 600; /* peso da fonte */
+    padding: 16px; /* espaço entre texto e borda do botão */
+    text-decoration: none; /* tira o sublinhado */
+    color: #FFFFFF; /* cor do texto do botão */
+    font-family: 'Krona One', sans-serif; /* estilo da fonte */
+    text-align: center;
+}
+
+.footer { /* rodapé */
+    background-color: #F2D2BD; /* cor de fundo secundária ou acabamento */
+    color: #003366; /* cor do texto do rodapé */
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #003366; /* borda superior do rodapé */
+}
